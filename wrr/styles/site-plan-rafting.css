@@ -2,29 +2,29 @@
 /* if you are using any Google fonts change the font names below to your fonts. 
 Any spaces in your font name should be replaced with a +. 
 Fonts are separated by a & */
-@import url('https://fonts.googleapis.com/css2?family=IM+Fell+French+Canon&family=Lato:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Amatic+SC:wght@400;700&display=swap');
 
 :root {
-  /* change the values below to your colors from your palette */
-  --primary-color: #396E94   ;
-  --secondary-color: #E7C24F ;
-  --accent1-color: #A42212;
-  --accent2-color: white;
+  /* change the values below to your colors from your palette https://coolors.co/0879d5-ff7700-5db8fe-f8ff2e*/
+  --primary-color: #0879D5   ;
+  --secondary-color: #FF7700 ;
+  --accent1-color: #5DB8FE;
+  --accent2-color: #F8FF2E;
 
   /* change the values below to your chosen font(s) */
-  --heading-font: "IM Fell French Canon";
-  --paragraph-font: Lato, Helvetica, sans-serif;
+  --heading-font: Alkatra;
+  --paragraph-font: Amatic SC;
 
   /* these colors below should be chosen from among your palette colors above */
-  --headline-color-on-white: #396E94;  /* headlines on a white background */ 
-  --headline-color-on-color: white; /* headlines on a colored background */ 
-  --paragraph-color-on-white: #396E94; /* paragraph text on a white background */ 
-  --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
-  --paragraph-background-color: #396E94  ;
-  --nav-link-color: #396E94;
-  --nav-background-color: #D4AC0D;
-  --nav-hover-link-color: white;
-  --nav-hover-background-color: #396E94;
+  --headline-color-on-white: #0879D5;  /* headlines on a white background */ 
+  --headline-color-on-color: #EFE7E0; /* headlines on a colored background */ 
+  --paragraph-color-on-white: #5DB8FE; /* paragraph text on a white background */ 
+  --paragraph-color-on-color: #EFE7E0; /* paragraph text on a colored background */ 
+  --paragraph-background-color: #0879D5  ;
+  --nav-link-color: #F8FF2E;
+  --nav-background-color: #FF7700;
+  --nav-hover-link-color: #5DB8FE;
+  --nav-hover-background-color: #F8FF2E;
 }
 
 
@@ -34,7 +34,7 @@ body {
   max-width: 960px;
   margin: 0 auto;
   padding: 4em;
-  font-size: 18px;
+  font-size: 20px;
   text-align: center;
 }
 img {
@@ -52,7 +52,7 @@ h2 {
 hr {
   height: 3px;
   margin: 35px 0;
-  background: var(--accent1-color);
+  background: var(--secondary-color);
 }
 header {
   padding: 1em;
@@ -67,6 +67,7 @@ p {
   font-family: var(--paragraph-font);
   color: var(--paragraph-color-on-white);
   padding: 1em;
+  font-size: 36px;
 }
 .colors {
   width: 100%;
@@ -112,13 +113,19 @@ nav a {
   min-width: 120px;
   text-decoration: none;
   padding: 10px;
+  font-family: var(--paragraph-font);
+  font-size: 36px;
 }
 nav a:link, nav a:visited {
   color: var(--nav-link-color);
+  font-family: var(--paragraph-font);
+  font-size: 36px;
 }
 nav a:hover {
   color: var(--nav-hover-link-color);
   background-color: var(--nav-hover-background-color);
+  font-family: var(--paragraph-font);
+  font-size: 36px;
 }
 .sitemap {
   display: grid;
