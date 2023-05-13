@@ -32,6 +32,11 @@
 body {
     background-color: white; 
 }
+#hero-img {
+  max-width: 1600px;
+  margin: 0 auto;
+  width: 1200px;
+}
 header {
     color: var(--headline-color-on-color);
     background-color: var(--paragraph-background-color);
@@ -92,9 +97,10 @@ nav a:hover {
     background-color: #F8FF2E; 
 }
 footer {
-    background-color: #FF7700;
-    color: var(--paragraph-color-on-color);
     text-align: center;
+    color: var(--headline-color-on-color);
+    background-color: var(--paragraph-background-color);
+    font-family: var(--heading-font);
 }
 footer p {
     font-size: 1.2em;
