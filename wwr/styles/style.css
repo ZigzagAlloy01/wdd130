@@ -91,7 +91,7 @@ main section {
     text-decoration: none;
     padding: 15px 30px;
     margin-top: 50px;
-    border-radius: 5px;
+    border-radius: 60px;
 }
 .book {
     background-color: #5DB8FE;
@@ -100,7 +100,7 @@ main section {
     font-size: 42px;
     padding: 15px 30px;
     margin-top: 50px;
-    border-radius: 5px;
+    border-radius: 60px;
 }
 nav a:hover {
     background-color: black;
