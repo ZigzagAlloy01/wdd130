@@ -42,9 +42,11 @@ body {
   width: 1600px;
 }
 header {
+    display: flex;
     color: var(--headline-color-on-color);
     background-color: var(--paragraph-background-color);
     font-family: var(--heading-font);
+    text-align: center;
 }
 nav a {
   text-align: center;
