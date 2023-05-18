@@ -34,7 +34,10 @@
   text-align: center;
 }
 body {
-    background-color: white; 
+    background-color: white;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 #hero-img {
   max-width: 1600px;
@@ -52,9 +55,9 @@ nav a {
   text-align: center;
   min-width: 120px;
   text-decoration: none;
-  padding: 10px;
   font-family: var(--paragraph-font);
   font-size: 36px;
+  padding: 35px;
 }
 #hero-msg h1 {
   text-align: center;
@@ -79,13 +82,16 @@ main section {
 .join {
     background-color: #5DB8FE;
     font-family: var(--paragraph-font);
-    font-size: 36px;
+    font-size: 18px;
     text-decoration: none;
+    padding: 15px 30px;
 }
 .book {
     background-color: #5DB8FE;
     color: var(--paragraph-color-on-color);
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
 }
 nav a:hover {
     background-color: black;
@@ -102,12 +108,15 @@ nav a:hover {
 .msg {
   background-color: #FF7700; 
   margin: 0 auto;
+  line-height: 1.5em;
+  padding: 35px;
 }
 footer {
     text-align: center;
     color: var(--headline-color-on-color);
     background-color: var(--paragraph-background-color);
     font-family: var(--heading-font);
+    padding: 25px 50px;
 }
 footer p {
     font-size: 1.2em;
@@ -119,18 +128,23 @@ footer a {
 footer p a:hover {
     text-decoration: underline;
 }
+footer .social-img {
+    padding-top: 15px;
+}
 footer a:hover {
     color: var(--paragraph-color-on-color);
 }
 .home-title {
     color: var(--paragraph-color-on-color);
     font-family: var(--heading-font);
+    font-size: 2em;
 }
 h4, h2 {
     font-family: var(--heading-font);
     color: var(--headline-color-on-white);
     text-align: center;
     background-color: #FF7700;
+    margin: 0;
 }
 .msg h2 {
     color: var(--paragraph-color-on-color);
@@ -138,10 +152,12 @@ h4, h2 {
 }
 .msg p {
     color: var(--paragraph-color-on-color);
+    padding-bottom: 15px;
 }
 .icon {
     width: 80px;
     height: 80px;
+    padding-top: 10px;
 }
 .social-icon {
     width: 80px;
@@ -158,6 +174,9 @@ h4, h2 {
 }
 .mountains-card {
     margin: 0 auto;
+}
+#logo_link {
+    padding-top: 5px;
 }
 
 
