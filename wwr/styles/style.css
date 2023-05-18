@@ -44,6 +44,7 @@ body {
   margin: 0 auto;
   width: 1600px;
 }
+section 
 header {
     display: flex;
     color: var(--headline-color-on-color);
@@ -186,13 +187,17 @@ h4, h2 {
 }
 .mountains-card {
     margin: 0 auto;
+}
+.mountains {
     border: 10px solid #d9c2a3;
+    margin: 20px 20px 20px 20px;
 }
 #logo_link {
     padding-top: 5px;
 }
 .card-img {
-    border: 10px solid #d9c2a3;
+    border: 20px solid #d9c2a3;
+    margin: 20px 20px 20px 20px;
 }
 main section img {
     box-sizing: border-box;
