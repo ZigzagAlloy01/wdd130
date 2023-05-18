@@ -49,7 +49,7 @@ section
 header {
     display: flex;
     color: var(--headline-color-on-color);
-    background-color: var(--paragraph-background-color);
+    background-color: #0879D5;
     font-family: var(--heading-font);
     text-align: center;
     height: 442px;
