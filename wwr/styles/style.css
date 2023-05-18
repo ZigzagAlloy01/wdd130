@@ -29,6 +29,7 @@
 #background {
     height: 725px;
     margin-top: 200px;
+    background-color: blue;
 }
 .logo {
     margin: 0 auto;
