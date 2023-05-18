@@ -85,7 +85,7 @@ main section {
 .join {
     background-color: #5DB8FE;
     font-family: var(--paragraph-font);
-    font-size: 18px;
+    font-size: 42px;
     text-decoration: none;
     padding: 15px 30px;
     margin-top: 50px;
@@ -95,7 +95,7 @@ main section {
     background-color: #5DB8FE;
     color: var(--paragraph-color-on-color);
     text-decoration: none;
-    font-size: 18px;
+    font-size: 42px;
     padding: 15px 30px;
     margin-top: 50px;
     border-radius: 5px;
@@ -113,10 +113,11 @@ nav a:hover {
     color: var(--paragraph-color-on-color);
 }
 .msg {
-  background-color: #FF7700; 
-  margin: 0 auto;
-  line-height: 1.5em;
-  padding: 35px;
+    background-color: #FF7700; 
+    margin: 0 auto;
+    line-height: 1.5em;
+    padding: 100px;
+    margin: 100px auto;
 }
 footer {
     text-align: center;
