@@ -66,12 +66,12 @@ nav a {
 #hero-msg h1 {
   text-align: center;
   font-family: var(--paragraph-font);
-  font-size: 36px;
+  font-size: 60px;
 }
 #hero-msg h4 {
   text-align: center;
   font-family: var(--paragraph-font);
-  font-size: 36px;
+  font-size: 60px;
 }
 .button-box {
   text-align: center;
