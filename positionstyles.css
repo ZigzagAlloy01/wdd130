@@ -33,41 +33,36 @@
 /* Activity 2 styles */ 
 .content2 {
   /* This is the parent of the activity 2 boxes. */
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr 1fr;
-  height: 90vh;
+  position: absolute;
+  width: 75px;
+  height: 75px;
+  color: white;
+  padding: 5px;
+  text-align: right;
 }
 .red2 {
-  width: 100px; 
-  height: 100px; 
   background-color: red;
-  margin-top: 15px;
-  margin-left: 15px;
+  z-index: auto;
+  top: 10px;
+  left: 10px;
 } 
 .green2 { 
-  width: 100px; 
-  height: 100px; 
   background-color: green;
-  position: relative;
-  left: -20vw;
-  top: 20vh;
+  z-index: 1;
+  top: 30px;
+  left: 30px;
 } 
 .yellow2 {
-  width: 100px; 
-  height: 100px; 
   background-color: gold;
-  position: relative;
-  left: -40vw;
-  top: 40vh;
+  z-index: 2;
+  top: 50px;
+  left: 50px;
 } 
 .blue2 {
-  width: 100px; 
-  height: 100px; 
   background-color: blue;
-  position: relative;
-  left: -60vw;
-  top: 60vh;  
+  z-index: 3;
+  top: 70px;
+  left: 70px;
 } 
 /* Activity 3 styles */ 
 .content3 {
