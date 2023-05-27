@@ -3,10 +3,10 @@
 
 .content1 {
         /* This is the parent of the activity 1 boxes. */
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  justify-items: center;
-  gap: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    gap: 20px;
 }
 .red1 { 
     width: 100%; 
@@ -34,28 +34,39 @@
 .content2 {
   /* This is the parent of the activity 2 boxes. */
   display: grid;
-  grid-template-columns: 0.25fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
 }
 .red2 {
   width: 100px; 
   height: 100px; 
   background-color: red;
-  margin: 20 px auto;
+  margin-top: 15px;
+  margin-left: 15px;
 } 
 .green2 { 
   width: 100px; 
   height: 100px; 
-  background-color: green; 
+  background-color: green;
+  position: relative;
+  left: -20vw;
+  top: 20vh;
 } 
 .yellow2 {
   width: 100px; 
   height: 100px; 
-  background-color: gold; 
+  background-color: gold;
+  position: relative;
+  left: -40vw;
+  top: 40vh;
 } 
 .blue2 {
   width: 100px; 
   height: 100px; 
-  background-color: blue; 
+  background-color: blue;
+  position: relative;
+  left: -60vw;
+  top: 60vh;  
 } 
 /* Activity 3 styles */ 
 .content3 {
