@@ -82,14 +82,15 @@
   background-color: green;
   grid-column: 1/2;
   grid-row: 2/3;
-  margin-right: 30px;
+  margin-right: 20px;
 } 
 .yellow3 {
-  width: 100%; 
+  width: 90%; 
   height: 100px; 
   background-color: gold;
   grid-column: 2/3;
   grid-row: 2/3;
+  margin-left: 20px;
 } 
 .blue3 {
   width: 100%;
