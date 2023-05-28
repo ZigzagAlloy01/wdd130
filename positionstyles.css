@@ -35,10 +35,13 @@
   /* This is the parent of the activity 2 boxes. */
   padding: 5px;
   text-align: right;
+  display: flex;
+  height: 400 px;
+  width: 400 px;
 }
 .red2 {
   background-color: red;
-  z-index: auto;
+  z-index: 0;
   top: 10px;
   left: 10px;
 } 
@@ -84,7 +87,7 @@
 } 
 .yellow3 {
   width: 100%; 
-  height: 200%; 
+  height: 100%; 
   background-color: gold;
   grid-column: 2/3;
   grid-row: 2/3;
