@@ -204,8 +204,9 @@
   width: 100px; 
   height: 100px; 
   background-color: blue;
-  grid-column: 0.5/3.5;
-  grid-row: 0.5/3.5;
+  grid-column: 1/4;
+  grid-row: 1/4;
+  margin: 80px auto;
   z-index: 1;
 } 
 
