@@ -33,8 +33,7 @@
 /* Activity 2 styles */ 
 .content2 {
   /* This is the parent of the activity 2 boxes. */
-  position: absolute;
-  height: 400px;
+  grid-template-columns: 50px 50px 50px 50px 50px;
 }
 .red2 {
   background-color: red;
@@ -66,7 +65,6 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
-  position: absolute;
   height: 300px;
 }
 .red3 {
