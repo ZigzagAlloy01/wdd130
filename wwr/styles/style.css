@@ -46,7 +46,8 @@ body {
 }
 section 
 header {
-    display: flex;
+    display: grid;
+    grid-template-columns: 150px auto;
     color: var(--headline-color-on-color);
     background-color: #0879D5;
     font-family: var(--heading-font);
