@@ -34,6 +34,9 @@
 .logo {
     margin: 0 auto;
 }
+nav {
+    display: flex;
+    justify-content: space-around;
 body {
     font-size: 22px;
     margin: 0;
@@ -199,6 +202,8 @@ h4, h2 {
 }
 #logo_link {
     padding-top: 5px;
+    justify-self: center;
+    align-self: center;
 }
 .card-img {
     border: 20px solid #d9c2a3;
