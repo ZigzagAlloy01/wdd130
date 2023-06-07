@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=IM+Fell+French+Canon+SC|Lato');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200&family=Poppins:wght@200&display=swap');
 
 :root {
   --primary-color: #0B3C49;
@@ -9,9 +9,9 @@
 
   --accent2-color: #CBD2D0;
 
-  --heading-font: "IM Fell French Canon SC";
+  --heading-font: 'Poppins', sans-serif;
 
-  --paragraph-font: Lato, Helvetica, sans-serif;
+  --paragraph-font: 'Manrope',sans-serif;
 
   --headline-color-on-white: #0B3C49;  /* headlines on a white background */ 
 
