@@ -179,7 +179,7 @@ nav {
 nav  {
 
   list-style-type: none;
-
+  justify-content: center;
   display: flex;
 
 }
