@@ -52,6 +52,7 @@
     padding-left: 68.5vw;
     margin-bottom: 4vw;
     background-color: var(--headline-color-on-white);
+    border-radius: 20px;
 }
 nav {
     display: flex;
