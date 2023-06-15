@@ -20,6 +20,7 @@ header {
   background-color: var(--header-color);
   width: 30vw;
   height: 100vh;
+  padding-top: 30.2rem;
 }
 main {
   background-color: var(--main-color);
@@ -35,4 +36,5 @@ footer {
   font-size: 2.4rem;
   width: 30vw;
   height: 100vh;
+  padding-top: 30.2rem;
 }
