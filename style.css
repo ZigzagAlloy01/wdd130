@@ -18,13 +18,13 @@ header {
   text-align: center;
   font-size: 3.2rem;
   background-color: var(--header-color);
-  width: 100%;
+  width: 30vw;
   height: 100vh;
 }
 main {
   background-color: var(--main-color);
   text-align: center;
-  width: 100%;
+  width: 40vw;
   font-size: 2.4rem;
   height: 100vh;
   padding-top: 30.2rem;
@@ -33,6 +33,6 @@ footer {
   background-color: var(--footer-color);
   text-align: center;
   font-size: 2.4rem;
-  width: 100%;
+  width: 30vw;
   height: 100vh;
 }
