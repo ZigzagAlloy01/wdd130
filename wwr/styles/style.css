@@ -257,7 +257,7 @@ h4, h2 {
 main section img {
     box-sizing: border-box;
 }
-h4 p {
+h4+p {
   font-family: 'Alkatra';
   text-align: center;
   font-size: 44px;
