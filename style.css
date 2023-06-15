@@ -28,6 +28,7 @@ main {
   width: 100%;
   font-size: 2.4rem;
   height: 80vh;
+  padding-top: 30.2rem;
 }
 footer {
   background-color: var(--footer-color);
