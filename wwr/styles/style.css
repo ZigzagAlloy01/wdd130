@@ -213,18 +213,21 @@ h4, h2 {
     border: 10px solid #d9c2a3;
     grid-column: 8/10;
     grid-row: 2/3;
+    padding: 4px 30px 4px 30px;
 }
 .rivers-card {
     margin: 0 auto;
     border: 10px solid #d9c2a3;
     grid-column: 2/4;
     grid-row: 2/3;
+    padding: 4px 30px 4px 30px;
 }
 .camping-card {
     margin: 0 auto;
     border: 10px solid #d9c2a3;
     grid-column: 5/7;
     grid-row: 2/3;
+    padding: 4px 30px 4px 30px;
 }
 .mountains-card {
     margin: 0 auto;
