@@ -22,7 +22,9 @@
   --nav-hover-link-color: #5DB8FE;
   --nav-hover-background-color: #F8FF2E;
 }
-
+main {
+  padding-top: 100px;
+}
 .home-grid {
     display: grid;
     grid-template-columns: repeat(10, 1fr);
