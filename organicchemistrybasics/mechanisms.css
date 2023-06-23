@@ -32,6 +32,11 @@
   --nav-hover-background-color: #731963;
 
 }
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 
 body {
 
@@ -49,8 +54,8 @@ body {
 
 img {
   border-radius: 10%;
-  width: 420px;
-  height: 300px;
+  width: 24.5rem;
+  height: 18.5rem;
   border: 7px solid var(--secondary-color);
   transition: transform .5s;
   box-shadow: 5px 5px 10px #6f7364;
@@ -58,6 +63,15 @@ img {
 img:hover {
     opacity:.6;
     transform: scale(1.1);
+}
+
+.principal-logo {
+  border-radius: 10%;
+  width: 20.5rem;
+  height: 14.5rem;
+  border: 7px solid var(--secondary-color);
+  transition: transform .5s;
+  box-shadow: 5px 5px 10px #6f7364;
 }
 
 h1, h2, h3, h4, h5, h6 {
