@@ -23,7 +23,7 @@
   --nav-hover-background-color: #F8FF2E;
 }
 * {
-  box-sizing: bordex-box;
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
