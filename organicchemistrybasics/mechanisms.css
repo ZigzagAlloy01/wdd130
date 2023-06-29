@@ -70,6 +70,11 @@ img:hover {
   transition: transform .5s;
   box-shadow: 5px 5px 10px #6f7364;
 }
+.welcome:hover {
+    opacity:.6;
+    transform: scale(1.1);
+}
+
 .principal-logo {
   border-radius: 10%;
   width: 20.5rem;
