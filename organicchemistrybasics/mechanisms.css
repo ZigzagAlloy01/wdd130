@@ -52,6 +52,12 @@ body {
 
 }
 
+.grid-inside {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+}
+
 img {
   border-radius: 10%;
   width: 24.5rem;
