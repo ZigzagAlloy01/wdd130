@@ -168,6 +168,9 @@ p {
 
 .colors {
 
+  display: grid;
+  grid-column: 1/2;
+  grid-row: 1/2;
   width: 100%;
 
   min-width: 350px;
@@ -342,6 +345,66 @@ nav a:hover {
 
   border-left: 1px solid;
 
+}
+
+.left-one {
+
+  display: grid;
+  grid-column: 1/2;
+  grid-row: 1/2;
+
+  border-top: 1px solid;
+
+  border-left: 1px solid;
+
+}
+
+.left-two {
+
+  display: grid;
+  grid-column: 1/2;
+  grid-row: 1/2;
+
+  border-top: 1px solid;
+
+  border-left: 1px solid;
+
+}
+
+.element-zero {
+  display: grid;
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+
+.element-one {
+  display: grid;
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+
+.element-two {
+  display: grid;
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+
+.element-three {
+  display: grid;
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+
+.element-four {
+  display: grid;
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+
+.element-five {
+  display: grid;
+  grid-column: 1/2;
+  grid-row: 1/2;
 }
 
 .right {
