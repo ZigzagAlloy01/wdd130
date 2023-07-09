@@ -353,6 +353,11 @@ nav a:hover {
   grid-column: 1/2;
 }
 
+.element-five {
+  grid-column: 2/4;
+  width: 23rem;
+}
+
 .left {
 
   grid-area: left;
