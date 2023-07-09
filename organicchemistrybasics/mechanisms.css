@@ -107,6 +107,7 @@ h2 {
 }
 
 .icon-bar {
+  margin-bottom: 3rem;
   width: 63rem; /* Full-width */
   background-color: #555; /* Dark-grey background */
   overflow: auto; /* Overflow due to float */
