@@ -392,42 +392,6 @@ nav a:hover {
 
 }
 
-.element-zero {
-  display: grid;
-  grid-column: 1/2;
-  grid-row: 1/2;
-}
-
-.element-one {
-  display: grid;
-  grid-column: 1/2;
-  grid-row: 1/2;
-}
-
-.element-two {
-  display: grid;
-  grid-column: 1/2;
-  grid-row: 1/2;
-}
-
-.element-three {
-  display: grid;
-  grid-column: 1/2;
-  grid-row: 1/2;
-}
-
-.element-four {
-  display: grid;
-  grid-column: 1/2;
-  grid-row: 1/2;
-}
-
-.element-five {
-  display: grid;
-  grid-column: 1/2;
-  grid-row: 1/2;
-}
-
 .right {
 
   grid-area: right;
