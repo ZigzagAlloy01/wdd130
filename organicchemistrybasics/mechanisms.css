@@ -53,9 +53,11 @@ body {
 }
 
 .grid-inside {
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  grid-template-rows: repeat(5, 1fr);
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 0.3fr);
+    height: 83rem;
+    width: 62rem;
 }
 
 img {
@@ -167,12 +169,9 @@ p {
 }
 
 .colors {
-
-  display: grid;
-  grid-column: 1/2;
-  grid-row: 1/2;
+  grid-column: 1/4;
+  grid-row: 5/6;
   width: 100%;
-
   min-width: 350px;
 
   margin: 30px auto;
@@ -337,6 +336,23 @@ nav a:hover {
 
 }
 
+.element-zero, .element-two, .element-four {
+  width: 15rem;
+}
+
+.element-one {
+  grid-column: 2/5;
+  grid-row: 1/2;
+}
+
+.element-three {
+  grid-column: 2/4;
+}
+
+.element-four {
+  grid-column: 1/2;
+}
+
 .left {
 
   grid-area: left;
@@ -359,7 +375,7 @@ nav a:hover {
 
 }
 
-.left-two {
+.left-six {
 
   display: grid;
   grid-column: 1/2;
